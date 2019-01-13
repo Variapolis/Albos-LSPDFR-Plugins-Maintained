@@ -103,8 +103,18 @@ namespace AssortedCallouts.Callouts
             PoliceCar = new Vehicle(CopCarModel, SpawnPoint, SpawnHeading);
             PoliceCar.RandomiseLicencePlate();
             PoliceCar.MakePersistent();
-            PoliceCar.IsSirenOn = true;
-            PoliceCar.IsSirenSilent = true;
+
+            if (AssortedCalloutsHandler.LightsOffForELSCars && Albo1125.Common.CommonLibrary.ExtensionMethods.VehicleModelIsELS(PoliceCar))
+            {
+                PoliceCar.IsSirenOn = false;
+                PoliceCar.IsSirenSilent = false;
+            }
+            else
+            {
+                PoliceCar.IsSirenOn = true;
+                PoliceCar.IsSirenSilent = true;
+            }
+
             PoliceOfficer = PoliceCar.CreateRandomDriver();
             PoliceOfficer.MakeMissionPed();
             PoliceOfficerBlip = PoliceOfficer.AttachBlip();
