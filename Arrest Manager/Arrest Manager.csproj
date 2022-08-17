@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Arrest_Manager</RootNamespace>
     <AssemblyName>Arrest Manager</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
     </SccProjectName>
@@ -39,6 +39,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -66,14 +67,14 @@
     <Reference Include="Albo1125.Common">
       <HintPath>..\Dependencies\Albo1125.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Albo1125.Common, Version=6.6.1.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Albo1125.Common, Version=6.6.5.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\Albo1125.Common.dll</HintPath>
     </Reference>
     <Reference Include="BetterEMS">
       <HintPath>..\Dependencies\BetterEMS.dll</HintPath>
     </Reference>
-    <Reference Include="BetterEMS, Version=3.0.6298.2858, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="BetterEMS, Version=4.1, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\BetterEMS.dll</HintPath>
     </Reference>
@@ -87,28 +88,28 @@
     <Reference Include="LSPD First Response">
       <HintPath>..\Dependencies\LSPD First Response.dll</HintPath>
     </Reference>
-    <Reference Include="LSPD First Response, Version=0.4.7110.32590, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LSPD First Response, Version=0.4.8242.35949, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\LSPD First Response.dll</HintPath>
     </Reference>
     <Reference Include="LSPDFR+">
       <HintPath>..\Dependencies\LSPDFR+.dll</HintPath>
     </Reference>
-    <Reference Include="LSPDFR+, Version=1.6.6.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="LSPDFR+, Version=1.9.2.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\LSPDFR+.dll</HintPath>
     </Reference>
     <Reference Include="PoliceSmartRadio">
       <HintPath>..\Dependencies\PoliceSmartRadio.dll</HintPath>
     </Reference>
-    <Reference Include="PoliceSmartRadio, Version=0.4.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="PoliceSmartRadio, Version=1.2.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\PoliceSmartRadio.dll</HintPath>
     </Reference>
     <Reference Include="RAGENativeUI">
       <HintPath>..\Dependencies\RAGENativeUI.dll</HintPath>
     </Reference>
-    <Reference Include="RAGENativeUI, Version=1.6.3.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="RAGENativeUI, Version=1.9.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\RAGENativeUI.dll</HintPath>
     </Reference>
@@ -163,7 +164,7 @@
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR
 
-copy /Y "$(TargetDir)$(ProjectName).pdb" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR</PostBuildEvent>
+      copy /Y "$(TargetDir)$(ProjectName).pdb" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

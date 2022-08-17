@@ -39,6 +39,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -80,7 +81,7 @@
     <Reference Include="LSPD First Response">
       <HintPath>..\Dependencies\LSPD First Response.dll</HintPath>
     </Reference>
-    <Reference Include="LSPD First Response, Version=0.4.9.8242, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LSPD First Response, Version=0.4.8242.35949, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dependencies\LSPD First Response.dll</HintPath>
     </Reference>
@@ -155,8 +156,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR
-copy /Y "$(TargetDir)$(ProjectName).pdb" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR</PostBuildEvent>
+    <PostBuildEvent>REM albo specific! copy /Y "$(TargetDir)$(ProjectName).dll" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR
+      REM albo specific! copy /Y "$(TargetDir)$(ProjectName).pdb" "G:\Program Files\Rockstar Games\Grand Theft Auto V\Plugins\LSPDFR</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
