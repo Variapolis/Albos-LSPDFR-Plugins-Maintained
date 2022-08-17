@@ -24,7 +24,7 @@ namespace PoliceSmartRadio
 
         public override void Initialize()
         {
-            Game.Console.Print("PoliceSmartRadio " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, loaded successfully!");
+            Game.Console.Print("PoliceSmartRadio " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis, loaded successfully!");
             Game.Console.Print("Special thanks to FinKone for the inspiration and OfficerSquare for the default UI.");
             Game.Console.Print("Please go on duty to start Police SmartRadio.");
 

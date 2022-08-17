@@ -49,7 +49,7 @@ namespace AssortedCallouts
             //Event handler for detecting if the player goes on duty
 
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
-            Game.LogTrivial("Assorted Callouts " + Assembly.GetExecutingAssembly().GetName().Version.ToString() +", developed by Albo1125, has been initialised.");
+            Game.LogTrivial("Assorted Callouts " + Assembly.GetExecutingAssembly().GetName().Version.ToString() +", developed by Albo1125 and maintained by Variapolis, has been initialised.");
             Game.LogTrivial("Go on duty to start Assorted Callouts.");
 
 

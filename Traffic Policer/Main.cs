@@ -57,7 +57,7 @@ namespace Traffic_Policer
             //Event handler for detecting if the player goes on duty
 
             
-            Game.LogTrivial("Traffic Policer " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, has been initialised.");
+            Game.LogTrivial("Traffic Policer " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis, has been initialised.");
             Game.LogTrivial("Go on duty to start Traffic Policer - Traffic Policer.Initialise done.");
             
 

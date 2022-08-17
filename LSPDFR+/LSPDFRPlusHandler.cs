@@ -260,7 +260,7 @@ namespace LSPDFR_
             GameFiber.StartNew(delegate
             {
 
-                Game.LogTrivial("LSPDFR+, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("LSPDFR+, developed by Albo1125 and maintained by Variapolis, has been loaded successfully!");
                 GameFiber.Wait(6000);
                 Game.DisplayNotification("~b~LSPDFR+~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
 

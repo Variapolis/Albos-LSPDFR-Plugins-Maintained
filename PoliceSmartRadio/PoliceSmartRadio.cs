@@ -69,7 +69,7 @@ namespace PoliceSmartRadio
 
         internal static void Initialise()
         {
-            Game.LogTrivial("PoliceSmartRadio, developed by Albo1125, has been loaded successfully!");
+            Game.LogTrivial("PoliceSmartRadio, developed by Albo1125 and maintained by Variapolis, has been loaded successfully!");
             GameFiber.StartNew(delegate
             {                
                 GameFiber.Wait(6000);

@@ -37,7 +37,7 @@ namespace AssortedCallouts
         {
             GameFiber.StartNew(delegate
             {
-                Game.LogTrivial("Assorted Callouts, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("Assorted Callouts, developed by Albo1125 and maintained by Variapolis, has been loaded successfully!");
                 GameFiber.Wait(6000);
                 Game.DisplayNotification("~b~Assorted Callouts~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
             });

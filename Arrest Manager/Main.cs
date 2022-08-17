@@ -30,7 +30,7 @@ namespace Arrest_Manager
         public override void Initialize()
         {
             //Event handler for detecting if the player goes on duty
-            Game.LogTrivial("Arrest Manager " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, loaded successfully!");
+            Game.LogTrivial("Arrest Manager " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis, loaded successfully!");
             
             Game.LogTrivial("Please go on duty to start Arrest Manager.");
 

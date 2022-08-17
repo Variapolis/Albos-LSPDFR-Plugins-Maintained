@@ -130,7 +130,7 @@ namespace Albo1125.Common
 
             try
             {
-                Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125. Checking for " + ModificationName + " updates.");
+                Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis. Checking for " + ModificationName + " updates.");
 
                 Thread FetchVersionThread = new Thread(() =>
                 {
@@ -177,7 +177,7 @@ namespace Albo1125.Common
 
         public static void InitialiseUpdateCheckingProcess()
         {
-            Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125. Starting update checks.");
+            Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis. Starting update checks.");
             Directory.CreateDirectory("Albo1125.Common/UpdateInfo");
             if (!File.Exists("Albo1125.Common/CommonVariables.xml"))
             {
@@ -205,7 +205,7 @@ namespace Albo1125.Common
                         if (DateTime.Now < UpdateCheckDT)
                         {
 
-                            Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125. Not checking for updates until " + UpdateCheckDT.ToString());
+                            Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained By Variapolis. Not checking for updates until " + UpdateCheckDT.ToString());
                             return;
                         }
                     }
@@ -229,7 +229,7 @@ namespace Albo1125.Common
                         CheckForModificationUpdates(entry.Name, new Version(FileVersionInfo.GetVersionInfo(entry.Path).FileVersion), entry.FileID, entry.DownloadLink);
                     }
                     if (PluginsDownloadLink.Count > 0) { DisplayUpdates(); }
-                    Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125. Update checks complete.");
+                    Game.LogTrivial("Albo1125.Common " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis. Update checks complete.");
                 });
             }
             catch (System.Xml.XmlException e)

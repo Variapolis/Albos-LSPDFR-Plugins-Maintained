@@ -3446,7 +3446,7 @@ namespace Arrest_Manager
         {
             GameFiber.StartNew(delegate
             {
-                Game.LogTrivial("Arrest Manager, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("Arrest Manager, developed by Albo1125 and maintained by Variapolis, has been loaded successfully!");
                 GameFiber.Wait(6000);
                 Game.DisplayNotification("~b~Arrest Manager~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
             });

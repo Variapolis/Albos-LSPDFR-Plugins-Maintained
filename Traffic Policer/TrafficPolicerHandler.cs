@@ -818,7 +818,7 @@ namespace Traffic_Policer
             {
                 Game.LogTrivial("Traffic Policer is not in beta.");
                 mainLoop();
-                Game.LogTrivial("Traffic Policer, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("Traffic Policer, developed by Albo1125 and maintained by Variapolis, has been loaded successfully!");
                 GameFiber.Wait(6000);
                 Game.DisplayNotification("~b~Traffic Policer~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
             });

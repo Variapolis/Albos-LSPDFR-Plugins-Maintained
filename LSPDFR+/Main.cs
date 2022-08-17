@@ -28,7 +28,7 @@ namespace LSPDFR_
         public override void Initialize()
         {
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
-            Game.LogTrivial("LSPDFR+ " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, has been initialised.");
+            Game.LogTrivial("LSPDFR+ " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125 and maintained by Variapolis, has been initialised.");
             Game.LogTrivial("Go on duty to start LSPDFR+.");
             Albo1125.Common.UpdateChecker.VerifyXmlNodeExists(PluginName, FileID, DownloadURL, Path);
             Albo1125.Common.DependencyChecker.RegisterPluginForDependencyChecks(PluginName);
