@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albo1125.Common", "Albo1125.Common\Albo1125.Common.csproj", "{83649ABE-AD6D-4997-BED2-B037A02F0926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrest Manager", "Arrest Manager\Arrest Manager.csproj", "{4078A1E7-308F-46ED-AB31-1DD3CA24B6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssortedCallouts", "AssortedCallouts\AssortedCallouts.csproj", "{E2DAD3D2-EFE9-4A35-AE9F-6D62295CC405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSPDFR+", "LSPDFR+\LSPDFR+.csproj", "{5AB88128-33CD-4A7B-BBE4-BCB4C73CEE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliceSmartRadio", "PoliceSmartRadio\PoliceSmartRadio.csproj", "{437FA638-276C-44CC-8D41-B36115D2E22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traffic Policer", "Traffic Policer\Traffic Policer.csproj", "{EC6B789B-263C-4B73-9768-464BA19D6B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83649ABE-AD6D-4997-BED2-B037A02F0926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83649ABE-AD6D-4997-BED2-B037A02F0926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83649ABE-AD6D-4997-BED2-B037A02F0926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83649ABE-AD6D-4997-BED2-B037A02F0926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4078A1E7-308F-46ED-AB31-1DD3CA24B6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4078A1E7-308F-46ED-AB31-1DD3CA24B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4078A1E7-308F-46ED-AB31-1DD3CA24B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4078A1E7-308F-46ED-AB31-1DD3CA24B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DAD3D2-EFE9-4A35-AE9F-6D62295CC405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DAD3D2-EFE9-4A35-AE9F-6D62295CC405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DAD3D2-EFE9-4A35-AE9F-6D62295CC405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DAD3D2-EFE9-4A35-AE9F-6D62295CC405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB88128-33CD-4A7B-BBE4-BCB4C73CEE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB88128-33CD-4A7B-BBE4-BCB4C73CEE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB88128-33CD-4A7B-BBE4-BCB4C73CEE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB88128-33CD-4A7B-BBE4-BCB4C73CEE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437FA638-276C-44CC-8D41-B36115D2E22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437FA638-276C-44CC-8D41-B36115D2E22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437FA638-276C-44CC-8D41-B36115D2E22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437FA638-276C-44CC-8D41-B36115D2E22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6B789B-263C-4B73-9768-464BA19D6B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6B789B-263C-4B73-9768-464BA19D6B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6B789B-263C-4B73-9768-464BA19D6B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6B789B-263C-4B73-9768-464BA19D6B18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
