@@ -31,17 +31,17 @@ namespace PoliceSmartRadio
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
         }
 
-        internal static Version Albo1125CommonVer = new Version("6.6.3.0");
-        internal static Version MadeForGTAVersion = new Version("1.0.1604.1");
-        internal static float MinimumRPHVersion = 0.51f;
+        internal static Version Albo1125CommonVer = new Version("6.6.5.0");
+        internal static Version MadeForGTAVersion = new Version("1.0.2699.0");
+        internal static float MinimumRPHVersion = 1.87f;
         internal static string[] AudioFilesToCheckFor = new string[] { "Plugins/LSPDFR/PoliceSmartRadio/Audio/ButtonScroll.wav", "Plugins/LSPDFR/PoliceSmartRadio/Audio/ButtonSelect.wav",
             "Plugins/LSPDFR/PoliceSmartRadio/Audio/PlateCheck/TargetPlate1.wav", "Plugins/LSPDFR/PoliceSmartRadio/Audio/PanicButton.wav" };
-        internal static Version MadeForLSPDFRVersion = new Version("0.4.39.22580");
+        internal static Version MadeForLSPDFRVersion = new Version("0.4.9");
         internal static string[] OtherFilesToCheckFor = new string[] { "Plugins/LSPDFR/Traffic Policer.dll", "Plugins/LSPDFR/PoliceSmartRadio/Config/GeneralConfig.ini",
             "Plugins/LSPDFR/PoliceSmartRadio/Config/ControllerConfig.ini", "Plugins/LSPDFR/PoliceSmartRadio/Config/KeyboardConfig.ini", "Plugins/LSPDFR/PoliceSmartRadio/Config/DisplayConfig.ini",
             "Plugins/LSPDFR/PoliceSmartRadio/Config/PanicButton.ini"};
 
-        internal static Version TrafficPolicerVersion = new Version("6.14.0.0");
+        internal static Version TrafficPolicerVersion = new Version("6.17.0.0");
         internal static Version ArrestManagerVersion = new Version("7.9.1.0");
         internal static string[] conflictingFiles = new string[] { "Plugins/LSPDFR/PoliceRadio.dll" };
 
