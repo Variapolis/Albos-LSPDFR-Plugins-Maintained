@@ -67,6 +67,7 @@ namespace Albo1125.Common
                         if (File.Exists("Plugins/LSPD First Response.dll"))
                         {
                             Version InstalledLSPDFRVer = new Version(FileVersionInfo.GetVersionInfo("Plugins/LSPD First Response.dll").ProductVersion);
+                            Game.LogTrivial($"LSPDFR found. Current version {InstalledLSPDFRVer}");
                             if (InstalledLSPDFRVer.CompareTo(MadeForLSPDFRVersion) != 0)
                             {
                                 Game.LogTrivial(CallingPlugin + " compatibility warning: Different LSPD First Response.dll version detected, use at your own risk! This mod was made for LSPDFR " + MadeForLSPDFRVersion.ToString());
@@ -88,6 +89,7 @@ namespace Albo1125.Common
                         if (File.Exists("RAGENativeUI.dll"))
                         {
                             Version InstalledNativeUIVer = new Version(FileVersionInfo.GetVersionInfo("RAGENativeUI.dll").ProductVersion);
+                            Game.LogTrivial($"RageNativeUI found. Current version {InstalledNativeUIVer}");
                             if (InstalledNativeUIVer.CompareTo(RAGENativeUIVersion) < 0)
                             {
                                 Game.LogTrivial("RAGENativeUI.dll out of date. Required version of RAGENativeUI to run this mod: " + RAGENativeUIVersion);
